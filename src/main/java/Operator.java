@@ -9,7 +9,7 @@ public class Operator {
         System.out.println("Для выхода введите \"Esc\", для проверки статуса введите название страны из списка:");
         boolean off = false;
         while (!off) {
-            Scanner stream = new Scanner(System.in, "windows-1251");
+            Scanner stream = new Scanner(System.in);
             String input = stream.nextLine().trim();
             if (input.equalsIgnoreCase("esc")) {
                 off = true;
