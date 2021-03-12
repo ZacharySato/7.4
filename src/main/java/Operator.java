@@ -26,7 +26,7 @@ public class Operator {
             } catch (IllegalArgumentException e) {
                 System.out.println("Наименование страны на английском введено некорректно,"
                         + "\n"
-                        + " проверяем русское название...");
+                        + "проверяем русское название...");
                 //Выглядит странно с точки зрения читаемости
                 try {
                     found = Country.getByRuName(input);
